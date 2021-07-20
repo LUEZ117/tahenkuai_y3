@@ -1,1 +1,1 @@
-images/14.jpg
+data/images/14.jpg

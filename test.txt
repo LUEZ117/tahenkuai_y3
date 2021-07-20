@@ -1,4 +1,0 @@
-data/images/11.jpg
-data/images/21.jpg
-data/images/27.jpg
-data/images/8.jpg
