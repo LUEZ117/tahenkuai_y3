@@ -490,7 +490,8 @@ if __name__ == '__main__':
 
     # Set DDP variables
     opt.world_size = int(os.environ['WORLD_SIZE']) if 'WORLD_SIZE' in os.environ else 1
-    opt.global_rank = int(os.environ['RANK']) if 'RANK' in os.environ else -1
+    # opt.global_rank = int(os.environ['RANK']) if 'RANK' in os.environ else -1
+    opt.global_rank = 0
     set_logging(opt.global_rank)
     if opt.global_rank in [-1, 0]:
         check_git_status()
