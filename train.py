@@ -82,7 +82,7 @@ def train(hyp, opt, device, tb_writer=None):
     # Model
     pretrained = weights.endswith('.pt')
     print(pretrained)
-    if pretrained:
+    if not pretrained: # zeng jia le not
         with torch_distributed_zero_first(rank):
             weights = attempt_download(weights)  # download if not found locally
         ckpt = torch.load(weights, map_location=device)  # load checkpoint
