@@ -24,8 +24,8 @@ def convert(size, box):
 
 
 def convert_annotation(image_id):
-    in_file = open('Annotations/%s.xml' % (image_id))
-    out_file = open('labels/%s.txt' % (image_id), 'w')
+    in_file = open('data/Annotations/%s.xml' % (image_id))
+    out_file = open('data/labels/%s.txt' % (image_id), 'w')
     tree = ET.parse(in_file)
     root = tree.getroot()
     size = root.find('size')
@@ -48,11 +48,11 @@ def convert_annotation(image_id):
 wd = getcwd()
 print(wd)
 for image_set in sets:
-    if not os.path.exists('labels/'):
-        os.makedirs('labels/')
-    image_ids = open('ImageSets/%s.txt' % (image_set)).read().strip().split()
+    if not os.path.exists('data/labels/'):
+        os.makedirs('data/labels/')
+    image_ids = open('data/ImageSets/%s.txt' % (image_set)).read().strip().split()
     list_file = open('%s.txt' % (image_set), 'w')
     for image_id in image_ids:
-        list_file.write('images/%s.jpg\n' % (image_id))
+        list_file.write('data/images/%s.jpg\n' % (image_id))
         convert_annotation(image_id)
     list_file.close()
