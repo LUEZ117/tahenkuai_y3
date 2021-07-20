@@ -6,9 +6,9 @@
 #     /yolov3
 
 # train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
-train: train.txt  #（修改为带文件路径的train.txt）
-val: val.txt  # (同上)
-test: test.txt  #(同上)
+train: data/train.txt  #（修改为带文件路径的train.txt）
+val: data/val.txt  # (同上)
+test: data/test.txt  #(同上)
 
 # number of classes
 nc: 5
