@@ -11,7 +11,7 @@ val: val.txt  # (同上)
 test: test.txt  #(同上)
 
 # number of classes
-nc: 80
+nc: 5
 
 # class names（修改为自己的类别）
 names: [ 'spitball', 'papercup', 'orangepeel', 'bottle', 'battery' ]
