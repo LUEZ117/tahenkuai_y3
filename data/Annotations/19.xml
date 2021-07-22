@@ -1,7 +1,7 @@
 <annotation>
 	<folder>JPEGImages</folder>
 	<filename>19.jpg</filename>
-	<path>D:\AI\HCV\voc\JPEGImages\19.jpg</path>
+	<path>D:\AI\tahenkuai_y3\data\JPEGImages\19.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -117,6 +117,18 @@
 			<ymin>326</ymin>
 			<xmax>831</xmax>
 			<ymax>357</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>orangepeel</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>866</xmin>
+			<ymin>186</ymin>
+			<xmax>892</xmax>
+			<ymax>206</ymax>
 		</bndbox>
 	</object>
 </annotation>

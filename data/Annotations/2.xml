@@ -1,7 +1,7 @@
 <annotation>
 	<folder>JPEGImages</folder>
 	<filename>2.jpg</filename>
-	<path>D:\AI\HCV\voc\JPEGImages\2.jpg</path>
+	<path>D:\AI\tahenkuai_y3\data\JPEGImages\2.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -165,6 +165,54 @@
 			<ymin>191</ymin>
 			<xmax>1298</xmax>
 			<ymax>207</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>battery</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>597</xmin>
+			<ymin>196</ymin>
+			<xmax>613</xmax>
+			<ymax>211</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>battery</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>949</xmin>
+			<ymin>294</ymin>
+			<xmax>974</xmax>
+			<ymax>314</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>papercup</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1558</xmin>
+			<ymin>200</ymin>
+			<xmax>1579</xmax>
+			<ymax>220</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>spitball</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>606</xmin>
+			<ymin>112</ymin>
+			<xmax>624</xmax>
+			<ymax>129</ymax>
 		</bndbox>
 	</object>
 </annotation>

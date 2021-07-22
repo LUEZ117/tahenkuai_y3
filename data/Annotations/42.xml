@@ -1,7 +1,7 @@
 <annotation>
 	<folder>JPEGImages</folder>
 	<filename>42.jpg</filename>
-	<path>D:\AI\HCV\voc\JPEGImages\42.jpg</path>
+	<path>D:\AI\tahenkuai_y3\data\JPEGImages\42.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -45,6 +45,30 @@
 			<ymin>274</ymin>
 			<xmax>1280</xmax>
 			<ymax>320</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>battery</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>833</xmin>
+			<ymin>210</ymin>
+			<xmax>852</xmax>
+			<ymax>225</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>orangepeel</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>855</xmin>
+			<ymin>188</ymin>
+			<xmax>874</xmax>
+			<ymax>200</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
 	<folder>JPEGImages</folder>
 	<filename>23.jpg</filename>
-	<path>D:\AI\HCV\voc\JPEGImages\23.jpg</path>
+	<path>D:\AI\tahenkuai_y3\data\JPEGImages\23.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -153,6 +153,42 @@
 			<ymin>301</ymin>
 			<xmax>1268</xmax>
 			<ymax>324</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>orangepeel</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1378</xmin>
+			<ymin>267</ymin>
+			<xmax>1411</xmax>
+			<ymax>291</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>orangepeel</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1066</xmin>
+			<ymin>186</ymin>
+			<xmax>1089</xmax>
+			<ymax>205</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>spitball</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1852</xmin>
+			<ymin>828</ymin>
+			<xmax>1920</xmax>
+			<ymax>913</ymax>
 		</bndbox>
 	</object>
 </annotation>

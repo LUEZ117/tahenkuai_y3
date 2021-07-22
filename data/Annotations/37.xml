@@ -1,7 +1,7 @@
 <annotation>
 	<folder>JPEGImages</folder>
 	<filename>37.jpg</filename>
-	<path>D:\AI\HCV\voc\JPEGImages\37.jpg</path>
+	<path>D:\AI\tahenkuai_y3\data\JPEGImages\37.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -141,6 +141,54 @@
 			<ymin>470</ymin>
 			<xmax>371</xmax>
 			<ymax>528</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>orangepeel</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>514</xmin>
+			<ymin>514</ymin>
+			<xmax>538</xmax>
+			<ymax>532</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>battery</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>673</xmin>
+			<ymin>485</ymin>
+			<xmax>700</xmax>
+			<ymax>503</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>battery</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1039</xmin>
+			<ymin>490</ymin>
+			<xmax>1058</xmax>
+			<ymax>519</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>spitball</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1240</xmin>
+			<ymin>456</ymin>
+			<xmax>1262</xmax>
+			<ymax>472</ymax>
 		</bndbox>
 	</object>
 </annotation>

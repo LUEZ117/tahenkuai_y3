@@ -1,7 +1,7 @@
 <annotation>
 	<folder>JPEGImages</folder>
 	<filename>30.jpg</filename>
-	<path>D:\AI\HCV\voc\JPEGImages\30.jpg</path>
+	<path>D:\AI\tahenkuai_y3\data\JPEGImages\30.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -153,6 +153,42 @@
 			<ymin>505</ymin>
 			<xmax>1266</xmax>
 			<ymax>532</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1069</xmin>
+			<ymin>487</ymin>
+			<xmax>1100</xmax>
+			<ymax>505</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>orangepeel</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>962</xmin>
+			<ymin>473</ymin>
+			<xmax>985</xmax>
+			<ymax>487</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>papercup</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1010</xmin>
+			<ymin>447</ymin>
+			<xmax>1029</xmax>
+			<ymax>461</ymax>
 		</bndbox>
 	</object>
 </annotation>
