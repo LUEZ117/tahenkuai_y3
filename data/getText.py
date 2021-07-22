@@ -1,10 +1,11 @@
+"""更新训练集后，先用这个"""
 import os
 import random
 
 trainval_percent = 0.1#数据少就1：9
 train_percent = 0.9
-xmlfilepath = 'Annotations'
-txtsavepath = 'ImageSets'
+xmlfilepath = 'data/Annotations'
+txtsavepath = 'data/ImageSets'
 total_xml = os.listdir(xmlfilepath)
 
 num = len(total_xml)
@@ -14,10 +15,10 @@ tr = int(tv * train_percent)
 trainval = random.sample(list, tv)
 train = random.sample(trainval, tr)
 
-ftrainval = open('ImageSets/trainval.txt', 'w')
-ftest = open('ImageSets/test.txt', 'w')
-ftrain = open('ImageSets/train.txt', 'w')
-fval = open('ImageSets/val.txt', 'w')
+ftrainval = open('data/ImageSets/trainval.txt', 'w')
+ftest = open('data/ImageSets/test.txt', 'w')
+ftrain = open('data/ImageSets/train.txt', 'w')
+fval = open('data/ImageSets/val.txt', 'w')
 
 for i in list:
     name = total_xml[i][:-4] + '\n'

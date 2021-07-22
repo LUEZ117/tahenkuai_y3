@@ -203,4 +203,16 @@
 			<ymax>333</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>papercup</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1736</xmin>
+			<ymin>1000</ymin>
+			<xmax>1902</xmax>
+			<ymax>1080</ymax>
+		</bndbox>
+	</object>
 </annotation>

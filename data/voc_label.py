@@ -1,3 +1,4 @@
+"""更新训练集后，再用这个"""
 import xml.etree.ElementTree as ET
 import pickle
 import os
