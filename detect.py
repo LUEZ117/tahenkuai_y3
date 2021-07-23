@@ -151,7 +151,7 @@ def detect(opt):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--weights', nargs='+', type=str, default='best.pt', help='model.pt path(s)')
+    parser.add_argument('--weights', nargs='+', type=str, default='best0.pt', help='model.pt path(s)')
     # parser.add_argument('--source', type=str, default='data/images', help='source')  # file/folder, 0 for webcam
     parser.add_argument('--source', type=str, default='data/test', help='source') # 图片集测试
     # parser.add_argument('--source', type=str, default=0, help='source') # 摄像头测试

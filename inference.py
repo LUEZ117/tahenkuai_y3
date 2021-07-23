@@ -22,7 +22,7 @@ class p2d:
         self.x, self.y, self.w, self.h = xywh
         print(xywh)
 class y3():
-    def __init__(self):
+    def __init__(self, weights):
         # parameters
         self.augment = False
         self.conf_thres = 0.25
@@ -31,7 +31,7 @@ class y3():
         # model
         device = select_device('')
         half = device.type != 'cpu'
-        model = attempt_load('best.pt', map_location=device)
+        model = attempt_load(weights, map_location=device)
         stride = int(model.stride.max())
         imgsz = check_img_size(640, s=stride) # 640
         names = model.module.names if hasattr(model,'module') else model.names
@@ -96,7 +96,7 @@ class y3():
 
 if __name__ == "__main__":
     frame = cv2.imread('data/test/49.jpg')
-    cv2.imshow('sa',y3().inference(frame))
+    cv2.imshow('sa',y3('best0.pt').inference(frame))
     cv2.waitKey(0)
     plt.imshow(frame)
     plt.show()
